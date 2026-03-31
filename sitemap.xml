@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/index.html</loc><priority>1.0</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/serverless.html</loc><priority>0.9</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/compute.html</loc><priority>0.8</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/storage.html</loc><priority>0.8</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/database.html</loc><priority>0.8</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/networking.html</loc><priority>0.8</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/ml-ai.html</loc><priority>0.8</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/management.html</loc><priority>0.8</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/security.html</loc><priority>0.8</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/integration.html</loc><priority>0.8</priority></url>
+  
+  <!-- Detail Pages -->
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/ec2.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/lambda.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/s3.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/rds.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/vpc.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/ebs.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/efs.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/backup.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/aurora.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/cloudfront.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/route53.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/sagemaker.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/lex.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/rekognition.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/cloudwatch.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/config.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/sns.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/sqs.html</loc><priority>0.7</priority></url>
+  <url><loc>https://learn-aws-with-yashraj.netlify.app/eventbridge.html</loc><priority>0.7</priority></url>
+</urlset>
