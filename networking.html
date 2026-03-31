@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Networking &amp; CDN – AWS Learning Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ─────────────────────────────────────────── -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">☁️</span>
+        <span class="logo-text"><span>AWS</span> Learn</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="compute.html">Compute</a></li>
+        <li><a href="storage.html">Storage</a></li>
+        <li><a href="database.html">Database</a></li>
+        <li><a href="networking.html">Networking</a></li>
+        <li><a href="ml-ai.html">ML &amp; AI</a></li>
+        <li><a href="management.html">Management</a></li>
+        <li><a href="security.html">Security</a></li>
+        <li><a href="integration.html">Integration</a></li>
+      </ul>
+      <div class="nav-search">
+        <input type="text" placeholder="Search services..." id="navSearchInput" aria-label="Search" />
+        <button aria-label="Search">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── PAGE HERO ───────────────────────────────────────────── -->
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> › Networking &amp; Content Delivery
+      </div>
+      <div class="page-hero-icon">🌐</div>
+      <h1>Networking &amp; Content Delivery</h1>
+      <p>
+        Build isolated virtual networks, route user traffic intelligently, and deliver
+        content to a global audience with ultra-low latency using AWS networking services.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── MAIN CONTENT ───────────────────────────────────────── -->
+  <main class="main-content">
+
+    <div class="search-container">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="serviceSearch" placeholder="Filter networking services…" aria-label="Filter services" />
+      </div>
+    </div>
+
+    <div class="services-grid" id="servicesGrid">
+
+      <!-- Amazon VPC -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon">🔒</div>
+          <h3>Amazon VPC</h3>
+        </div>
+        <p>Virtual Private Cloud — Launch AWS resources in a logically isolated virtual network. You control IP ranges, subnets, route tables, and network gateways completely.</p>
+        <span class="service-tag">Virtual Network</span>
+      </div>
+
+      <!-- Amazon CloudFront -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon">🚀</div>
+          <h3>Amazon CloudFront</h3>
+        </div>
+        <p>A fast Content Delivery Network (CDN) that securely delivers data, videos, and applications globally with low latency by caching content at edge locations near users.</p>
+        <span class="service-tag">CDN</span>
+      </div>
+
+      <!-- Amazon Route 53 -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon">🗺️</div>
+          <h3>Amazon Route 53</h3>
+        </div>
+        <p>A highly available and scalable cloud Domain Name System (DNS) service. Route 53 translates human-readable domain names into IP addresses and routes traffic reliably.</p>
+        <span class="service-tag">DNS</span>
+      </div>
+
+    </div>
+
+    <div class="no-results" id="noResults">
+      <div class="no-results-icon">🔍</div>
+      <p>No services match your search. Try a different keyword.</p>
+    </div>
+
+  </main>
+
+  <!-- ── FOOTER ──────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-icon">☁️</span>
+            <span class="logo-text"><span>AWS</span> Learn</span>
+          </div>
+          <p>A beginner-friendly reference guide to Amazon Web Services. Not affiliated with Amazon or AWS.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Other Categories</h4>
+          <ul>
+            <li><a href="compute.html">Compute</a></li>
+            <li><a href="storage.html">Storage</a></li>
+            <li><a href="database.html">Database</a></li>
+            <li><a href="ml-ai.html">ML &amp; AI</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="management.html">Management</a></li>
+            <li><a href="security.html">Security</a></li>
+            <li><a href="integration.html">Integration</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>On This Page</h4>
+          <ul>
+            <li><a href="#">Amazon VPC</a></li>
+            <li><a href="#">Amazon CloudFront</a></li>
+            <li><a href="#">Amazon Route 53</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 AWS Learning Portal. For educational purposes only.</span>
+        <span>Built with ❤️ for cloud learners</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
