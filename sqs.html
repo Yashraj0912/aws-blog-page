@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon SQS – AWS Learning Portal</title>
+  <meta name="description" content="Learn about Amazon SQS — simple message queuing service." />
+  <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="service-detail.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="compute.html">Compute</a></li>
+      <li><a href="storage.html">Storage</a></li><li><a href="database.html">Database</a></li>
+      <li><a href="networking.html">Networking</a></li><li><a href="ml-ai.html">ML &amp; AI</a></li>
+      <li><a href="management.html">Management</a></li><li><a href="security.html">Security</a></li>
+      <li><a href="integration.html" class="active">Integration</a></li>
+    </ul>
+    <div class="nav-search"><input type="text" placeholder="Search services..." id="navSearchInput" aria-label="Search" /><button aria-label="Search">🔍</button></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </div></nav>
+
+  <section class="service-detail-hero" style="background: linear-gradient(135deg, #1A3A5C 0%, #1B2B4B 60%, var(--aws-dark) 100%);">
+    <div class="service-detail-hero-content">
+      <a href="integration.html" class="back-link">← Back to Integration Services</a>
+      <div class="service-detail-meta">
+        <div class="service-detail-icon">📬</div>
+        <div class="service-detail-labels">
+          <span class="service-category-badge">Message Queue</span>
+          <span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">Amazon Web Services</span>
+        </div>
+      </div>
+      <h1>Amazon SQS</h1>
+      <p class="subtitle">Simple Queue Service (SQS) — A fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.</p>
+    </div>
+  </section>
+
+  <main class="main-content">
+    <div class="detail-section fade-in">
+      <h2>📖 What is Amazon SQS?</h2>
+      <p>Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. SQS eliminates the complexity and overhead associated with managing and operating message-oriented middleware.</p>
+      <p>Using SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.</p>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>⭐ Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item"><div class="feature-icon">🛡️</div><h4>Durability</h4><p>SQS stores messages on multiple servers across multiple Availability Zones to prevent message loss.</p></div>
+        <div class="feature-item"><div class="feature-icon">🚀</div><h4>High Scalability</h4><p>SQS can handle an unlimited number of messages and scales automatically to handle changes in traffic.</p></div>
+        <div class="feature-item"><div class="feature-icon">⚙️</div><h4>Decoupling</h4><p>Decouple your microservices allowing them to grow and fail independently without losing data.</p></div>
+        <div class="feature-item"><div class="feature-icon">🔒</div><h4>Security</h4><p>Encrypt sensitive messages in transit and at rest using AWS Key Management Service (KMS).</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="footer-content"><div class="footer-grid">
+    <div class="footer-brand"><div class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></div><p>A beginner-friendly reference guide to Amazon Web Services.</p></div>
+    <div class="footer-col"><h4>Integration</h4><ul><li><a href="sns.html">Amazon SNS</a></li><li><a href="sqs.html">Amazon SQS</a></li><li><a href="eventbridge.html">Amazon EventBridge</a></li></ul></div>
+  </div><div class="footer-bottom"><span>© 2024 AWS Learning Portal. For educational purposes only.</span><span>Built with ❤️ for cloud learners</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

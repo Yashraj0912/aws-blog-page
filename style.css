@@ -331,18 +331,95 @@ img { max-width: 100%; display: block; }
   gap: 20px;
 }
 
+/* Category Card Hover Effects */
 .category-card {
   background: var(--bg-card);
-  border: 1px solid var(--border-color);
+  padding: 32px;
   border-radius: var(--border-radius);
-  padding: 28px 24px;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition);
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
-  cursor: pointer;
+  gap: 16px;
   position: relative;
   overflow: hidden;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--aws-orange);
+}
+
+/* Featured Concept Section */
+.featured-concept {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  margin: 48px 0;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-concept::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--aws-orange);
+}
+
+.concept-content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.concept-icon {
+  font-size: 3rem;
+  background: rgba(255,153,0,0.1);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.concept-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.concept-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: var(--aws-dark);
+}
+
+.concept-text p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.concept-action {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .concept-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
 }
 
 .category-card::before {

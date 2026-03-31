@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Config – AWS Learning Portal</title>
+  <meta name="description" content="Learn about AWS Config — resource inventory and compliance service." />
+  <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="service-detail.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="compute.html">Compute</a></li>
+      <li><a href="storage.html">Storage</a></li><li><a href="database.html">Database</a></li>
+      <li><a href="networking.html">Networking</a></li><li><a href="ml-ai.html">ML &amp; AI</a></li>
+      <li><a href="management.html" class="active">Management</a></li><li><a href="security.html">Security</a></li>
+      <li><a href="integration.html">Integration</a></li>
+    </ul>
+    <div class="nav-search"><input type="text" placeholder="Search services..." id="navSearchInput" aria-label="Search" /><button aria-label="Search">🔍</button></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </div></nav>
+
+  <section class="service-detail-hero" style="background: linear-gradient(135deg, #1A3A5C 0%, #1B2B4B 60%, var(--aws-dark) 100%);">
+    <div class="service-detail-hero-content">
+      <a href="management.html" class="back-link">← Back to Management Services</a>
+      <div class="service-detail-meta">
+        <div class="service-detail-icon">🔎</div>
+        <div class="service-detail-labels">
+          <span class="service-category-badge">Compliance</span>
+          <span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">Amazon Web Services</span>
+        </div>
+      </div>
+      <h1>AWS Config</h1>
+      <p class="subtitle">A service that enables you to assess, audit, and evaluate the configurations of your AWS resources.</p>
+    </div>
+  </section>
+
+  <main class="main-content">
+    <div class="detail-section fade-in">
+      <h2>📖 What is AWS Config?</h2>
+      <p>AWS Config continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations.</p>
+      <p>With AWS Config, you can review changes in configurations and relationships between AWS resources, dive into detailed resource configuration histories, and determine your overall compliance against the configurations specified in your internal guidelines.</p>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>⭐ Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item"><div class="feature-icon">📜</div><h4>Configuration History</h4><p>View a detailed history of how a resource was configured at any point in time.</p></div>
+        <div class="feature-item"><div class="feature-icon">🛡️</div><h4>Compliance Tracking</h4><p>Evaluate your AWS resource configurations against desired settings using Config Rules.</p></div>
+        <div class="feature-item"><div class="feature-icon">🔍</div><h4>Resource Inventory</h4><p>Discover a comprehensive inventory of all your AWS resources and their relationships.</p></div>
+        <div class="feature-item"><div class="feature-icon">🚨</div><h4>Multi-Account Aggregation</h4><p>Aggregate your compliance status and configuration data across multiple AWS accounts and Regions.</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="footer-content"><div class="footer-grid">
+    <div class="footer-brand"><div class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></div><p>A beginner-friendly reference guide to Amazon Web Services.</p></div>
+    <div class="footer-col"><h4>Management</h4><ul><li><a href="cloudwatch.html">Amazon CloudWatch</a></li><li><a href="config.html">AWS Config</a></li></ul></div>
+  </div><div class="footer-bottom"><span>© 2024 AWS Learning Portal. For educational purposes only.</span><span>Built with ❤️ for cloud learners</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

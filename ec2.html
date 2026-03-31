@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon EC2 – AWS Learning Portal</title>
+  <meta name="description" content="Learn Amazon EC2 — virtual servers in the cloud. Understand instance types, pricing models, and common use cases." />
+  <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="service-detail.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="compute.html" class="active">Compute</a></li>
+      <li><a href="storage.html">Storage</a></li><li><a href="database.html">Database</a></li>
+      <li><a href="networking.html">Networking</a></li><li><a href="ml-ai.html">ML &amp; AI</a></li>
+      <li><a href="management.html">Management</a></li><li><a href="security.html">Security</a></li>
+      <li><a href="integration.html">Integration</a></li>
+    </ul>
+    <div class="nav-search"><input type="text" placeholder="Search services..." id="navSearchInput" aria-label="Search" /><button aria-label="Search">🔍</button></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </div></nav>
+
+  <section class="service-detail-hero">
+    <div class="service-detail-hero-content">
+      <a href="compute.html" class="back-link">← Back to Compute Services</a>
+      <div class="service-detail-meta">
+        <div class="service-detail-icon">💻</div>
+        <div class="service-detail-labels">
+          <span class="service-category-badge">Virtual Servers · Compute</span>
+          <span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">Amazon Web Services</span>
+        </div>
+      </div>
+      <h1>Amazon EC2</h1>
+      <p class="subtitle">Elastic Compute Cloud — Secure, resizable compute capacity in the cloud. Launch virtual servers in minutes and pay only for what you use. EC2 is the backbone of most AWS architectures.</p>
+    </div>
+  </section>
+
+  <main class="main-content">
+
+    <div class="detail-section fade-in">
+      <h2>📖 What is Amazon EC2?</h2>
+      <p>Amazon Elastic Compute Cloud (EC2) provides scalable computing capacity in the AWS cloud, eliminating the need to invest in hardware upfront so you can develop and deploy applications faster.</p>
+      <p>You can launch as many or as few virtual servers as you need, configure security and networking, and manage storage. EC2 enables you to scale up or down to handle changes in requirements or spikes in popularity.</p>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>⭐ Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item"><div class="feature-icon">⚡</div><h4>Elastic Scaling</h4><p>Scale capacity up or down in minutes based on demand — never overpay for idle servers.</p></div>
+        <div class="feature-item"><div class="feature-icon">🗂️</div><h4>400+ Instance Types</h4><p>Optimized for compute, memory, storage, GPU, or networking. Pick the perfect fit for any workload.</p></div>
+        <div class="feature-item"><div class="feature-icon">🔒</div><h4>Secure by Default</h4><p>Integrated with VPC, IAM, Security Groups, and KMS encryption for complete data protection.</p></div>
+        <div class="feature-item"><div class="feature-icon">🌍</div><h4>Global Reach</h4><p>Launch instances in any of AWS's 30+ Regions worldwide for low-latency global deployments.</p></div>
+        <div class="feature-item"><div class="feature-icon">💰</div><h4>Flexible Pricing</h4><p>On-Demand, Reserved, Spot Instances, and Savings Plans to match every budget and workload pattern.</p></div>
+        <div class="feature-item"><div class="feature-icon">🖼️</div><h4>Custom AMIs</h4><p>Create Amazon Machine Images with your software pre-installed to launch consistent environments instantly.</p></div>
+      </div>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>🚀 Common Use Cases</h2>
+      <div class="use-cases-list">
+        <div class="use-case-item"><div class="use-case-num">1</div><div><h4>Web Application Hosting</h4><p>Host websites and web apps on EC2 with full control over the server environment, OS, and software stack.</p></div></div>
+        <div class="use-case-item"><div class="use-case-num">2</div><div><h4>Big Data Processing</h4><p>Run large analysis jobs on memory-optimized instances, then terminate them when the job is done.</p></div></div>
+        <div class="use-case-item"><div class="use-case-num">3</div><div><h4>Machine Learning Training</h4><p>Use GPU-powered P4 or G5 instances to train large ML models without buying expensive hardware.</p></div></div>
+        <div class="use-case-item"><div class="use-case-num">4</div><div><h4>Development &amp; Testing</h4><p>Spin up isolated dev/test environments instantly and terminate them when done — pay only for use time.</p></div></div>
+      </div>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>💳 Pricing Models</h2>
+      <table class="pricing-table">
+        <thead><tr><th>Model</th><th>Best For</th><th>Savings vs On-Demand</th></tr></thead>
+        <tbody>
+          <tr><td><strong>On-Demand</strong></td><td>Unpredictable workloads, short-term needs</td><td>Baseline (no commitment)</td></tr>
+          <tr><td><strong>Reserved Instances</strong></td><td>Steady, predictable workloads (1–3 yr)</td><td>Up to 75% savings</td></tr>
+          <tr><td><strong>Spot Instances</strong></td><td>Fault-tolerant batch jobs, CI/CD</td><td>Up to 90% savings</td></tr>
+          <tr><td><strong>Savings Plans</strong></td><td>Flexible compute commitment (1–3 yr)</td><td>Up to 66% savings</td></tr>
+        </tbody>
+      </table>
+      <div class="tip-box">💡 <strong>Beginner Tip:</strong> Start with <strong>On-Demand</strong> instances while learning. Once usage is predictable, switch to Reserved Instances or Savings Plans to cut costs dramatically.</div>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>🔗 Related Compute Services</h2>
+      <div class="features-grid">
+        <a href="lambda.html" class="feature-item link-card"><div class="feature-icon">⚡</div><h4>AWS Lambda</h4><p>Serverless functions — run code without managing any servers at all.</p></a>
+        <a href="ecs-eks.html" class="feature-item link-card"><div class="feature-icon">🐳</div><h4>Amazon ECS / EKS</h4><p>Run Docker containers or Kubernetes workloads on managed infrastructure.</p></a>
+        <a href="elastic-beanstalk.html" class="feature-item link-card"><div class="feature-icon">🌱</div><h4>Elastic Beanstalk</h4><p>Deploy web apps without managing infrastructure — EC2 under the hood.</p></a>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="footer-content"><div class="footer-grid">
+    <div class="footer-brand"><div class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></div><p>A beginner-friendly reference guide to Amazon Web Services. Not affiliated with Amazon or AWS.</p></div>
+    <div class="footer-col"><h4>Compute</h4><ul><li><a href="ec2.html">Amazon EC2</a></li><li><a href="lambda.html">AWS Lambda</a></li><li><a href="ecs-eks.html">ECS/EKS</a></li><li><a href="elastic-beanstalk.html">Elastic Beanstalk</a></li></ul></div>
+    <div class="footer-col"><h4>Data</h4><ul><li><a href="s3.html">Amazon S3</a></li><li><a href="rds.html">Amazon RDS</a></li><li><a href="dynamodb.html">DynamoDB</a></li><li><a href="redshift.html">Redshift</a></li></ul></div>
+    <div class="footer-col"><h4>Security</h4><ul><li><a href="iam.html">AWS IAM</a></li><li><a href="cognito.html">Amazon Cognito</a></li><li><a href="shield.html">AWS Shield</a></li><li><a href="vpc.html">Amazon VPC</a></li></ul></div>
+  </div><div class="footer-bottom"><span>© 2024 AWS Learning Portal. For educational purposes only.</span><span>Built with ❤️ for cloud learners</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

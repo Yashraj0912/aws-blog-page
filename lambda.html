@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Lambda – AWS Learning Portal</title>
+  <meta name="description" content="Learn AWS Lambda — serverless compute. Understand functions, event triggers, pricing, and use cases." />
+  <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="service-detail.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="compute.html" class="active">Compute</a></li>
+      <li><a href="storage.html">Storage</a></li><li><a href="database.html">Database</a></li>
+      <li><a href="networking.html">Networking</a></li><li><a href="ml-ai.html">ML &amp; AI</a></li>
+      <li><a href="management.html">Management</a></li><li><a href="security.html">Security</a></li>
+      <li><a href="integration.html">Integration</a></li>
+    </ul>
+    <div class="nav-search"><input type="text" placeholder="Search services..." id="navSearchInput" aria-label="Search" /><button aria-label="Search">🔍</button></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </div></nav>
+
+  <section class="service-detail-hero">
+    <div class="service-detail-hero-content">
+      <a href="compute.html" class="back-link">← Back to Compute Services</a>
+      <div class="service-detail-meta">
+        <div class="service-detail-icon">⚡</div>
+        <div class="service-detail-labels">
+          <span class="service-category-badge">Serverless</span>
+          <span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">Amazon Web Services</span>
+        </div>
+      </div>
+      <h1>AWS Lambda</h1>
+      <p class="subtitle">Run code without thinking about servers. Lambda automatically scales your application by running code in response to each trigger, charging you only for the compute time consumed.</p>
+    </div>
+  </section>
+
+  <main class="main-content">
+
+    <div class="detail-section fade-in">
+      <h2>📖 What is AWS Lambda?</h2>
+      <p>AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.</p>
+      <p>Upload your code and Lambda takes care of everything required to run and scale it with high availability. You can trigger Lambda from over 200 AWS services and SaaS applications.</p>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>⭐ Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item"><div class="feature-icon">🚫</div><h4>No Server Management</h4><p>Zero infrastructure to provision, patch, or maintain. AWS handles everything automatically.</p></div>
+        <div class="feature-item"><div class="feature-icon">📈</div><h4>Auto Scaling</h4><p>Scales from zero to thousands of concurrent executions automatically with no configuration.</p></div>
+        <div class="feature-item"><div class="feature-icon">💰</div><h4>Pay Per Use</h4><p>Charged only for compute time consumed (billed in 1ms increments). Free tier: 1M requests/month.</p></div>
+        <div class="feature-item"><div class="feature-icon">🌐</div><h4>Multiple Runtimes</h4><p>Supports Python, Node.js, Java, Go, Ruby, .NET, and custom runtimes.</p></div>
+        <div class="feature-item"><div class="feature-icon">🔌</div><h4>200+ Integrations</h4><p>Triggered natively by S3, DynamoDB, API Gateway, SQS, EventBridge, and more.</p></div>
+        <div class="feature-item"><div class="feature-icon">⏱️</div><h4>15 Minute Timeout</h4><p>Functions can run for up to 15 minutes — ideal for data processing.</p></div>
+      </div>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>🚀 Common Use Cases</h2>
+      <div class="use-cases-list">
+        <div class="use-case-item"><div class="use-case-num">1</div><div><h4>REST API Backends</h4><p>Combined with API Gateway, Lambda powers fully serverless REST APIs that scale automatically.</p></div></div>
+        <div class="use-case-item"><div class="use-case-num">2</div><div><h4>Real-time File Processing</h4><p>Trigger a function when a file is uploaded to S3 (e.g., resize images, parse CSVs).</p></div></div>
+        <div class="use-case-item"><div class="use-case-num">3</div><div><h4>Scheduled Jobs (Cron)</h4><p>Replace traditional cron jobs by scheduling Lambda functions with EventBridge rules.</p></div></div>
+        <div class="use-case-item"><div class="use-case-num">4</div><div><h4>Stream Processing</h4><p>Process Kinesis or DynamoDB Streams in real-time for analytics and event pipelines.</p></div></div>
+      </div>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>🔗 Related Compute Services</h2>
+      <div class="features-grid">
+        <a href="ec2.html" class="feature-item link-card"><div class="feature-icon">💻</div><h4>Amazon EC2</h4><p>Full virtual servers when you need more control, longer runtimes, or persistent compute.</p></a>
+        <a href="ecs-eks.html" class="feature-item link-card"><div class="feature-icon">🐳</div><h4>Amazon ECS / EKS</h4><p>Containerized workloads that need more than Lambda's 15-minute timeout.</p></a>
+        <a href="elastic-beanstalk.html" class="feature-item link-card"><div class="feature-icon">🌱</div><h4>Elastic Beanstalk</h4><p>Deploy web applications without managing servers — simple PaaS solution.</p></a>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="footer-content"><div class="footer-grid">
+    <div class="footer-brand"><div class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></div><p>A beginner-friendly reference guide to Amazon Web Services. Not affiliated with Amazon or AWS.</p></div>
+    <div class="footer-col"><h4>Compute</h4><ul><li><a href="ec2.html">Amazon EC2</a></li><li><a href="lambda.html">AWS Lambda</a></li><li><a href="ecs-eks.html">ECS/EKS</a></li><li><a href="elastic-beanstalk.html">Elastic Beanstalk</a></li></ul></div>
+    <div class="footer-col"><h4>Data</h4><ul><li><a href="s3.html">Amazon S3</a></li><li><a href="rds.html">Amazon RDS</a></li><li><a href="dynamodb.html">DynamoDB</a></li><li><a href="redshift.html">Redshift</a></li></ul></div>
+    <div class="footer-col"><h4>Security</h4><ul><li><a href="iam.html">AWS IAM</a></li><li><a href="cognito.html">Amazon Cognito</a></li><li><a href="shield.html">AWS Shield</a></li><li><a href="vpc.html">Amazon VPC</a></li></ul></div>
+  </div><div class="footer-bottom"><span>© 2024 AWS Learning Portal. For educational purposes only.</span><span>Built with ❤️ for cloud learners</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

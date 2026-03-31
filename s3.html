@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon S3 – AWS Learning Portal</title>
+  <meta name="description" content="Learn about Amazon S3 — scalable object storage. Understand buckets, objects, storage classes, and use cases." />
+  <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="service-detail.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="compute.html">Compute</a></li>
+      <li><a href="storage.html" class="active">Storage</a></li><li><a href="database.html">Database</a></li>
+      <li><a href="networking.html">Networking</a></li><li><a href="ml-ai.html">ML &amp; AI</a></li>
+      <li><a href="management.html">Management</a></li><li><a href="security.html">Security</a></li>
+      <li><a href="integration.html">Integration</a></li>
+    </ul>
+    <div class="nav-search"><input type="text" placeholder="Search services..." id="navSearchInput" aria-label="Search" /><button aria-label="Search">🔍</button></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </div></nav>
+
+  <section class="service-detail-hero" style="background: linear-gradient(135deg, #1A3A5C 0%, #0F1B2D 60%, var(--aws-dark) 100%);">
+    <div class="service-detail-hero-content">
+      <a href="storage.html" class="back-link">← Back to Storage Services</a>
+      <div class="service-detail-meta">
+        <div class="service-detail-icon">🪣</div>
+        <div class="service-detail-labels">
+          <span class="service-category-badge">Object Storage</span>
+          <span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">Amazon Web Services</span>
+        </div>
+      </div>
+      <h1>Amazon S3</h1>
+      <p class="subtitle">Simple Storage Service — Store and retrieve any amount of data, at any time, from anywhere on the web. Highly scalable, durable, and secure object storage.</p>
+    </div>
+  </section>
+
+  <main class="main-content">
+
+    <div class="detail-section fade-in">
+      <h2>📖 What is Amazon S3?</h2>
+      <p>Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.</p>
+      <p>Data in S3 is stored in containers called "buckets" as "objects". S3 provides 99.999999999% (11 9's) of durability and enables you to store data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.</p>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>⭐ Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item"><div class="feature-icon">🛡️</div><h4>11 9's of Durability</h4><p>Data is redundantly stored across multiple facilities and devices in an AWS Region.</p></div>
+        <div class="feature-item"><div class="feature-icon">📂</div><h4>Storage Classes</h4><p>S3 Standard, Intelligent-Tiering, Glacier, etc. Optimize for cost based on access frequency.</p></div>
+        <div class="feature-item"><div class="feature-icon">🔒</div><h4>Robust Security</h4><p>Block public access, enforce IAM policies, encrypt data at rest, and use AWS KMS seamlessly.</p></div>
+        <div class="feature-item"><div class="feature-icon">📈</div><h4>Infinite Scale</h4><p>Virtually unlimited storage capacity. No need to provision storage upfront.</p></div>
+        <div class="feature-item"><div class="feature-icon">🌐</div><h4>Static Web Hosting</h4><p>Host simple static websites directly from an S3 bucket with minimal configuration.</p></div>
+        <div class="feature-item"><div class="feature-icon">⚙️</div><h4>Lifecycle Management</h4><p>Automatically move older data to cheaper storage classes like Glacier to reduce costs.</p></div>
+      </div>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>🚀 Common Use Cases</h2>
+      <div class="use-cases-list">
+        <div class="use-case-item"><div class="use-case-num">1</div><div><h4>Backup and Restore</h4><p>Backup massive quantities of data securely to S3, taking advantage of its durability.</p></div></div>
+        <div class="use-case-item"><div class="use-case-num">2</div><div><h4>Data Lakes</h4><p>S3 is the central storage for AWS data lakes, holding petabytes of structured and unstructured data.</p></div></div>
+        <div class="use-case-item"><div class="use-case-num">3</div><div><h4>Static Website Hosting</h4><p>Deploy HTML, CSS, JavaScript, and image files without provisioning any web servers.</p></div></div>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="footer-content"><div class="footer-grid">
+    <div class="footer-brand"><div class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></div><p>A beginner-friendly reference guide to Amazon Web Services.</p></div>
+    <div class="footer-col"><h4>Compute</h4><ul><li><a href="ec2.html">Amazon EC2</a></li><li><a href="lambda.html">AWS Lambda</a></li><li><a href="ecs-eks.html">ECS/EKS</a></li><li><a href="elastic-beanstalk.html">Elastic Beanstalk</a></li></ul></div>
+    <div class="footer-col"><h4>Data</h4><ul><li><a href="s3.html">Amazon S3</a></li><li><a href="rds.html">Amazon RDS</a></li><li><a href="dynamodb.html">DynamoDB</a></li><li><a href="redshift.html">Redshift</a></li></ul></div>
+    <div class="footer-col"><h4>Security</h4><ul><li><a href="iam.html">AWS IAM</a></li><li><a href="cognito.html">Amazon Cognito</a></li><li><a href="shield.html">AWS Shield</a></li><li><a href="vpc.html">Amazon VPC</a></li></ul></div>
+  </div><div class="footer-bottom"><span>© 2024 AWS Learning Portal. For educational purposes only.</span><span>Built with ❤️ for cloud learners</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

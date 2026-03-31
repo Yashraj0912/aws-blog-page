@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon EBS – AWS Learning Portal</title>
+  <meta name="description" content="Learn about Amazon EBS — block storage for Amazon EC2." />
+  <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="service-detail.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="compute.html">Compute</a></li>
+      <li><a href="storage.html" class="active">Storage</a></li><li><a href="database.html">Database</a></li>
+      <li><a href="networking.html">Networking</a></li><li><a href="ml-ai.html">ML &amp; AI</a></li>
+      <li><a href="management.html">Management</a></li><li><a href="security.html">Security</a></li>
+      <li><a href="integration.html">Integration</a></li>
+    </ul>
+    <div class="nav-search"><input type="text" placeholder="Search services..." id="navSearchInput" aria-label="Search" /><button aria-label="Search">🔍</button></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </div></nav>
+
+  <section class="service-detail-hero" style="background: linear-gradient(135deg, #1A3A5C 0%, #1B2B4B 60%, var(--aws-dark) 100%);">
+    <div class="service-detail-hero-content">
+      <a href="storage.html" class="back-link">← Back to Storage Services</a>
+      <div class="service-detail-meta">
+        <div class="service-detail-icon">💾</div>
+        <div class="service-detail-labels">
+          <span class="service-category-badge">Block Storage</span>
+          <span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">Amazon Web Services</span>
+        </div>
+      </div>
+      <h1>Amazon EBS</h1>
+      <p class="subtitle">Elastic Block Store (EBS) — High-performance block storage designed for use with Amazon EC2 for both throughput and transaction-intensive workloads.</p>
+    </div>
+  </section>
+
+  <main class="main-content">
+    <div class="detail-section fade-in">
+      <h2>📖 What is Amazon EBS?</h2>
+      <p>Amazon Elastic Block Store (Amazon EBS) provides block level storage volumes for use with EC2 instances. EBS volumes behave like raw, unformatted block devices. You can mount these volumes as devices on your instances.</p>
+      <p>EBS volumes are particularly suited for use cases that require a database, a file system, or access to raw block-level storage. You can create multiple volumes and attach them to any of your EC2 instances.</p>
+    </div>
+
+    <div class="detail-section fade-in">
+      <h2>⭐ Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item"><div class="feature-icon">🚀</div><h4>Performance</h4><p>Choose between SSD-backed volumes for transactional workloads and HDD-backed volumes for throughput-intensive workloads.</p></div>
+        <div class="feature-item"><div class="feature-icon">🛡️</div><h4>Availability</h4><p>Volumes are automatically replicated within their Availability Zone to protect you from component failure.</p></div>
+        <div class="feature-item"><div class="feature-icon">🔒</div><h4>Encryption</h4><p>EBS encryption offers seamless encryption of data at rest, data in transit, and snapshots.</p></div>
+        <div class="feature-item"><div class="feature-icon">📸</div><h4>Snapshots</h4><p>Back up your data by taking point-in-time snapshots of your volumes, which are stored in Amazon S3.</p></div>
+      </div>
+    </div>
+  </main>
+  
+  <footer><div class="footer-content"><div class="footer-grid">
+    <div class="footer-brand"><div class="nav-logo"><span class="logo-icon">☁️</span><span class="logo-text"><span>AWS</span> Learn</span></div><p>A beginner-friendly reference guide to Amazon Web Services.</p></div>
+    <div class="footer-col"><h4>Storage</h4><ul><li><a href="s3.html">Amazon S3</a></li><li><a href="ebs.html">Amazon EBS</a></li><li><a href="efs.html">Amazon EFS</a></li><li><a href="backup.html">AWS Backup</a></li></ul></div>
+  </div><div class="footer-bottom"><span>© 2024 AWS Learning Portal. For educational purposes only.</span><span>Built with ❤️ for cloud learners</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
